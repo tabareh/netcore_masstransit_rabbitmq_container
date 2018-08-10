@@ -1,0 +1,14 @@
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\bin\Debug\netcoreapp2.1\subscriber.deps.json
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\bin\Debug\netcoreapp2.1\subscriber.runtimeconfig.json
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\bin\Debug\netcoreapp2.1\subscriber.runtimeconfig.dev.json
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\bin\Debug\netcoreapp2.1\subscriber.dll
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\bin\Debug\netcoreapp2.1\subscriber.pdb
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\bin\Debug\netcoreapp2.1\bus.dll
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\bin\Debug\netcoreapp2.1\bus.pdb
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\obj\Debug\netcoreapp2.1\subscriber.csprojAssemblyReference.cache
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\obj\Debug\netcoreapp2.1\subscriber.csproj.CoreCompileInputs.cache
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\obj\Debug\netcoreapp2.1\subscriber.AssemblyInfoInputs.cache
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\obj\Debug\netcoreapp2.1\subscriber.AssemblyInfo.cs
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\obj\Debug\netcoreapp2.1\subscriber.csproj.CopyComplete
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\obj\Debug\netcoreapp2.1\subscriber.dll
+C:\temp\netcore_masstransit_rabbitmq_container\subscriber\obj\Debug\netcoreapp2.1\subscriber.pdb

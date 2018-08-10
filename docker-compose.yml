@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  subscriber:
+    image: ${DOCKER_REGISTRY}subscriber
+    build:
+      context: .
+      dockerfile: subscriber/Dockerfile
+    depends_on:
+    - rabbitmq.service
+
+  publisher:
+    image: ${DOCKER_REGISTRY}publisher
+    build:
+      context: .
+      dockerfile: publisher/Dockerfile
+    # a dummy command to keep the container running
+    command: tail -F nothing    
+    depends_on:
+    - rabbitmq.service
+
+  rabbitmq.service:
+    image: rabbitmq:3-management
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    # healthcheck:
+    #     test: ["CMD", "curl", "-f", "http://localhost:15672"]
+    #     interval: 30s
+    #     timeout: 10s
+    #     retries: 5
