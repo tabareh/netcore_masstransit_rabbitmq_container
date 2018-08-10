@@ -10,6 +10,7 @@
 * ~~POC subscriber with MassTransit~~
 * ~~Containerize all microservices~~
 * Connection resiliency
+    * if the subscriber container fails to start, it's because rabbitmq is not up. Remove (NOT stop) the subscriber container and run the docker-compose again 
 
 # Notes:
 - This project is inspired by : http://looselycoupledlabs.com/2015/07/masstransit-3-update-a-simple-publishsubscribe-example/
